@@ -14,4 +14,4 @@ word city timezone data 世界主要城市时区信息
 
 ### 后续
 
-欢迎您能反应问题或者pull request来完善信息
+现在数据大概有1400多条，欢迎您能反应问题或者pull request来完善信息
