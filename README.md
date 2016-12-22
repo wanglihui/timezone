@@ -12,10 +12,14 @@ word city timezone data 世界主要城市时区信息
 - 城市数据来源于网上爬取的城市三字码
 - timezone数据来源于百度api http://mvideo.baidu.com/index.php?title=webapi/guide/timezone
 
-### 两种使用
+### 两种使用方式
 - 直接拷贝文件timezone.json或者timezone.csv 导入数据库
 - 使用npm install https://github.com/wanglihui/timezone.git
-
+```javascript
+    var timezone = require("timezone");
+    //第一个参数为日期字符串，第二个为城市三字码
+    var d = timezone.getTimezoneDate("2016-12-12 12:00:00", "BJS");
+```
 ### 测试
   
     mocha 
