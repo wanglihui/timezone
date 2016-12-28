@@ -1,5 +1,5 @@
 {
-  "name": "timezone",
+  "name": "city-timezone",
   "version": "1.1.0",
   "description": "world city timezone",
   "main": "index.js",
