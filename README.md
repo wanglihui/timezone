@@ -1,4 +1,4 @@
-# timezone
+# city-timezone
 
 word city timezone data 世界主要城市时区信息
 
@@ -14,9 +14,9 @@ word city timezone data 世界主要城市时区信息
 
 ### 两种使用方式
 - 直接拷贝文件timezone.json或者timezone.csv 导入数据库
-- 使用npm install https://github.com/wanglihui/timezone.git
+- 使用npm install city-timezone
 ```javascript
-    var timezone = require("timezone");
+    var timezone = require("city-timezone");
     //第一个参数为日期字符串，第二个为城市三字码
     var d = timezone.getTimezoneDate("2016-12-12 12:00:00", "BJS");
 ```
