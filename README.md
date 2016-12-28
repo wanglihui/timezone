@@ -21,8 +21,19 @@ word city timezone data 世界主要城市时区信息
     var d = timezone.getTimezoneDate("2016-12-12 12:00:00", "BJS");
 ```
 ### 测试
-  
-    mocha 
+
+```
+    mocha
+
+      timezone
+        ✓ #getTimezoneDate with citycode=BJS (北京) should be ok
+        ✓ #getTimezoneDate with citycode=LHR (伦敦) should be ok
+        ✓ #getTimezoneDate with citycode=JFK (纽约) should be ok
+
+
+      3 passing (12ms)
+
+```
 
 ### 后续
 
